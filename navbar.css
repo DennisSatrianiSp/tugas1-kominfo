@@ -3,10 +3,10 @@
     color: white;
 }
 .cerah {
-    background-color: #F5EFE7;
+    background-color: #e58e26;
 }
 .warna {
-    background-color: #E7CEA6;
+    background-color: #fa983a;
 }
 .switch {
     position: relative;
@@ -15,7 +15,6 @@
     margin-top: -3px;
     width: 70px;
     height: 30px;
-    z-index: -9999px;
 }
 .slider {
     position: absolute;
@@ -36,6 +35,7 @@ input {
     margin-top: -5px;
     margin-left: -10px;
     opacity: 0;
+    cursor: pointer;
 }
 /* .switch input {display: none;} */
 
@@ -57,4 +57,9 @@ input:checked + .slider{
 input:checked+.slider:before {
    transform: translateX(40px);
    background-color: grey;
+}
+.posisi {
+    margin-right: 10px;
+    margin-top: 12px;
+    font-weight: bold;
 }
